@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 public class PostsUpdateRequestDto {
     private String title;
     private String content;
-
+    //commit Test
     @Builder
     public PostsUpdateRequestDto(String title,String content){
         this.title=title;
