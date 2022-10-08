@@ -1,6 +1,6 @@
-package com.jojoldu.book.springboot.web.web.dto;
+package com.jojoldu.book.springboot.web.dto;
 
-import com.jojoldu.book.springboot.web.domain.posts.Posts;
+import com.jojoldu.book.springboot.domain.posts.Posts;
 import lombok.Getter;
 
 @Getter

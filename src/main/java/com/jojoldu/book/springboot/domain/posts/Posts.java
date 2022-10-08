@@ -1,4 +1,4 @@
-package com.jojoldu.book.springboot.web.domain.posts;
+package com.jojoldu.book.springboot.domain.posts;
 
 import lombok.Builder;
 import lombok.Getter;
