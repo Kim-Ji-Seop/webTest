@@ -57,6 +57,8 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
         /** SessionUser
          * 세션에 사용자 정보를 저장하기 위한 Dto 클래스.
          * 왜 User 클래스를 쓰지 않고 새로 만들어서 쓰는지?
+         * 그 이유는 언제 다른 엔티티 클래스와 관계가 형성될지 모르기 때문에
+         * 직렬화 대상에 자식들까지 포함이 될 수 있다
          */
         httpSession.setAttribute("user", new SessionUser(user));
 

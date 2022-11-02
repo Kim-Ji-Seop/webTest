@@ -7,7 +7,7 @@ var main = {
         $('#btn-update').on('click',function (){ // 게시글 수정 버튼
             _this.update(); // btn-update란 id를 가진 HTML 엘리먼트에 click 이벤트가 발생할 때 update function을 실행하도록 이벤트를 등록한다.
         });
-        $('#btn-delete').on('click',function (){ // 게시글 수정 버튼
+        $('#btn-delete').on('click',function (){ // 게시글 삭제 버튼
             _this.delete(); // btn-update란 id를 가진 HTML 엘리먼트에 click 이벤트가 발생할 때 update function을 실행하도록 이벤트를 등록한다.
         });
     },
